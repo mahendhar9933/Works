@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MVS Store</title>
+        <style>
+            body{
+                background-color: beige;
+            }
+            h1{
+                text-align: center;
+                color: rgb(19, 19, 22);
+            }
+
+            ul{
+                background-color: bisque;
+                margin: auto;
+                width: 800px;
+                border: 2px solid rgb(158, 160, 167);
+                border-radius: 50px;
+                padding: 30px;
+            }
+            li{
+                text-align: center;
+                font-size: 25px;
+                font-weight: bold;
+                list-style: none;
+                padding: 15px;
+            }
+            input{
+                padding: 5px;
+            }
+            .button{
+                width: 150px;
+                margin-left: 40%;
+                margin-top: 30px;
+                font-size: 15px;
+                font-weight: bold;
+                background-color: rgb(17, 55, 182);
+                color: rgb(14, 13, 13);
+                border: 2px solid black;
+                border-radius: 5px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+          <h1>Create New Account</h1>
+        </header>
+        <main>
+            <ul>
+                <li>
+                    <label for="fristName">Frist Name:</label>
+                    <input type="text" name="fristName" placeholder="Fristname">
+                </li>
+                <li>
+                    <label for="Lastname">Last Name:</label>
+                    <input type="text" name="Lastname" placeholder="Lastname">
+                </li>
+                <li>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </li>
+                <li>
+                    <label for="Lastname">MobileNumber:</label>
+                    <input type="number" name="mobilenumber" placeholder="MobileNumber">
+                </li>
+                <li>
+                    <label for="mail">UserMail:</label>
+                    <input type="mail" name="mail" placeholder="abc@gmail.com">
+                </li>
+                <li>
+                    <label for="password">Create New Password:</label>
+                    <input type="password" name="password" placeholder="password">
+                </li>
+                <li>
+                    <label for="Re-enterPassword">Re-enter password:</label>
+                    <input type="password" name="password" placeholder="Re-enterPassword">
+                </li>
+                <button class="button" href="SignIn_page.html">SignIn_up</button>
+            </ul>
+        </main>
+        <footer>
+            CopyRights@2022
+        </footer>    
+    </body>
+</html>
